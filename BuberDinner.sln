@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2C241ED2-3B71-4202-824E-EAD1B8F792CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuberDinner.Api", "src\BuberDinner.Api\BuberDinner.Api.csproj", "{D976E394-7355-474B-AC4B-6BEDF9584BE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuberDinner.Application", "src\BuberDinner.Application\BuberDinner.Application.csproj", "{F3AFABDC-130E-44FF-9B7B-0C6723E17D03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuberDinner.Contracts", "src\BuberDinner.Contracts\BuberDinner.Contracts.csproj", "{B08A906C-2E76-4A7F-8CB0-D15A77067A44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuberDinner.Domain", "src\BuberDinner.Domain\BuberDinner.Domain.csproj", "{13914DB5-6903-4D9F-B22D-A4F87EFEB4D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuberDinner.Infrastructure", "src\BuberDinner.Infrastructure\BuberDinner.Infrastructure.csproj", "{476EB21A-4AA5-43D1-AAAB-BA05795D2594}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E58D45B9-E270-4B84-8854-FB91EB1EB17D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{FCA9A54A-9FF6-48F1-AF57-59798B4BA4B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuberDinner.Api.UnitTests", "tests\UnitTests\BuberDinner.Api.UnitTests\BuberDinner.Api.UnitTests.csproj", "{EE964ABB-7143-4DA9-801C-EF341616D129}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuberDinner.Application.UnitTests", "tests\UnitTests\BuberDinner.Application.UnitTests\BuberDinner.Application.UnitTests.csproj", "{3D7ABC0C-3DCD-4A27-BFB4-7F1B0270EC9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuberDinner.Domain.UnitTests", "tests\UnitTests\BuberDinner.Domain.UnitTests\BuberDinner.Domain.UnitTests.csproj", "{005DBD63-BE82-4488-8E5C-30D45341EE14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuberDinner.Infrastructure.UnitTests", "tests\UnitTests\BuberDinner.Infrastructure.UnitTests\BuberDinner.Infrastructure.UnitTests.csproj", "{9BE96F3F-E422-45DA-B8AB-AA005CF04E30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D976E394-7355-474B-AC4B-6BEDF9584BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D976E394-7355-474B-AC4B-6BEDF9584BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D976E394-7355-474B-AC4B-6BEDF9584BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D976E394-7355-474B-AC4B-6BEDF9584BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3AFABDC-130E-44FF-9B7B-0C6723E17D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3AFABDC-130E-44FF-9B7B-0C6723E17D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3AFABDC-130E-44FF-9B7B-0C6723E17D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3AFABDC-130E-44FF-9B7B-0C6723E17D03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B08A906C-2E76-4A7F-8CB0-D15A77067A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B08A906C-2E76-4A7F-8CB0-D15A77067A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B08A906C-2E76-4A7F-8CB0-D15A77067A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B08A906C-2E76-4A7F-8CB0-D15A77067A44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13914DB5-6903-4D9F-B22D-A4F87EFEB4D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13914DB5-6903-4D9F-B22D-A4F87EFEB4D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13914DB5-6903-4D9F-B22D-A4F87EFEB4D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13914DB5-6903-4D9F-B22D-A4F87EFEB4D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{476EB21A-4AA5-43D1-AAAB-BA05795D2594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{476EB21A-4AA5-43D1-AAAB-BA05795D2594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{476EB21A-4AA5-43D1-AAAB-BA05795D2594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{476EB21A-4AA5-43D1-AAAB-BA05795D2594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE964ABB-7143-4DA9-801C-EF341616D129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE964ABB-7143-4DA9-801C-EF341616D129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE964ABB-7143-4DA9-801C-EF341616D129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE964ABB-7143-4DA9-801C-EF341616D129}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D7ABC0C-3DCD-4A27-BFB4-7F1B0270EC9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D7ABC0C-3DCD-4A27-BFB4-7F1B0270EC9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D7ABC0C-3DCD-4A27-BFB4-7F1B0270EC9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D7ABC0C-3DCD-4A27-BFB4-7F1B0270EC9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{005DBD63-BE82-4488-8E5C-30D45341EE14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{005DBD63-BE82-4488-8E5C-30D45341EE14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{005DBD63-BE82-4488-8E5C-30D45341EE14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{005DBD63-BE82-4488-8E5C-30D45341EE14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BE96F3F-E422-45DA-B8AB-AA005CF04E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE96F3F-E422-45DA-B8AB-AA005CF04E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE96F3F-E422-45DA-B8AB-AA005CF04E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE96F3F-E422-45DA-B8AB-AA005CF04E30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D976E394-7355-474B-AC4B-6BEDF9584BE8} = {2C241ED2-3B71-4202-824E-EAD1B8F792CA}
+		{F3AFABDC-130E-44FF-9B7B-0C6723E17D03} = {2C241ED2-3B71-4202-824E-EAD1B8F792CA}
+		{B08A906C-2E76-4A7F-8CB0-D15A77067A44} = {2C241ED2-3B71-4202-824E-EAD1B8F792CA}
+		{13914DB5-6903-4D9F-B22D-A4F87EFEB4D8} = {2C241ED2-3B71-4202-824E-EAD1B8F792CA}
+		{476EB21A-4AA5-43D1-AAAB-BA05795D2594} = {2C241ED2-3B71-4202-824E-EAD1B8F792CA}
+		{FCA9A54A-9FF6-48F1-AF57-59798B4BA4B9} = {E58D45B9-E270-4B84-8854-FB91EB1EB17D}
+		{EE964ABB-7143-4DA9-801C-EF341616D129} = {FCA9A54A-9FF6-48F1-AF57-59798B4BA4B9}
+		{3D7ABC0C-3DCD-4A27-BFB4-7F1B0270EC9F} = {FCA9A54A-9FF6-48F1-AF57-59798B4BA4B9}
+		{005DBD63-BE82-4488-8E5C-30D45341EE14} = {FCA9A54A-9FF6-48F1-AF57-59798B4BA4B9}
+		{9BE96F3F-E422-45DA-B8AB-AA005CF04E30} = {FCA9A54A-9FF6-48F1-AF57-59798B4BA4B9}
+	EndGlobalSection
+EndGlobal
